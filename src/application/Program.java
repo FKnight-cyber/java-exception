@@ -36,7 +36,7 @@ public class Program {
 				n++;
 			}
 			catch(DomainException e){
-				System.out.print("Error: " + e.getMessage());;
+				System.out.print("Error: " + e.getMessage());
 			}
 		}while(n!=1);
 		sc.close();
